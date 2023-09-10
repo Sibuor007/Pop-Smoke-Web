@@ -10,7 +10,8 @@
 * {
     box-sizing: border-box;
     font-family: Poiret One;
-    color: #777;
+    color: white;
+    background-image: url("Images/4k-wallpaper-architecture-background-black.png");
 }
 html, body {
     margin: 0;
@@ -40,7 +41,7 @@ html, body {
 }
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url("Images/music1.png");
+    background-image: url("Images/black.png");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -68,7 +69,7 @@ html, body {
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
-    color: #333;
+    color: white;
     text-align: center;
     font-size: 2.5em;
 }
@@ -98,4 +99,11 @@ html, body {
 .footer-nav {
     width: 30px;
     height: 30px;
+    text-align: left;
+}
+.author {
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-right: 20px;
 }
